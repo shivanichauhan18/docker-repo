@@ -3,7 +3,6 @@ const mocks = require('ronin-mocks')
 const database  = require( 'ronin-database' )
 
 async function main() {
-// fghghhh
     try {
     await database.connect("mongodb://172.17.0.1:27017/notes" )
     
